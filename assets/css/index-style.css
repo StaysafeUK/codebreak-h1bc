@@ -1,5 +1,19 @@
 
+/* Main */
 
+body {
+    background-color: black;
+}
+
+h1,
+h2, 
+h5 {
+    color: #FFF
+}
+
+p {
+    color: #FFF
+}
 
 /* Images */ 
 
@@ -34,5 +48,13 @@
     background-image: url('../images/flagscombinednew.jpg');
     background-size: cover;
     height: 100vh;
+}
+
+.mainheader {
+    color:grey;
+}
+
+.mainp {
+    color: grey;
 }
 
