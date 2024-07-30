@@ -1,8 +1,14 @@
 /* Color */
 
 .recipe-image{
+    margin: 20 auto ;
     width: 500px;
     height: 400px;
     background-size: cover;
+}
+
+.recipe-text{
+    font-size: small;
+    color:#000000;
 }
 
