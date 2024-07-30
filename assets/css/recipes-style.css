@@ -1,8 +1,7 @@
 /* Color */
 
 .recipe-image{
-    width: 255;
-    height: 185;
+    width: 500px;
+    height: 400px;
     background-color: blue;
-    background-image: url("assets/images/newyork.jpg");
 }
