@@ -18,6 +18,123 @@ html<!DOCTYPE html>
         </style>
     </head>
 <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Recipies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ContactUs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="AboutSection">
+        <fieldset>
+            <legend>About US</legend>
+            <p>Welcome to our culinary corner, where passion meets flavor! We are a trio of food enthusiasts who believe that cooking is an art form that brings people together.
+             Our journey began in the heart of our kitchens, where the simple joy of sharing homemade meals with loved ones sparked a desire to explore the world of food, 
+             more deeply. We created this website to share our love for cooking and to inspire others to discover the joy of making delicious dishes at home.</p>
+
+             <p>Sayed - About Us & Community Engagement: As the voice behind the "About Us" page and community engagement, 
+                I am passionate about sharing the stories and inspirations that drive our love for food. 
+                My goal is to connect with our audience and create a space where we can all share our culinary experiences and discoveries.</p>
+            
+            <p>Ei - Recipe Curation & Content Specialist: Ei is our resident recipe curator, responsible for sourcing and showcasing an eclectic mix of recipes. 
+                With a keen eye for detail and a love for global flavors, Ei ensures that each recipe is easy to follow and true to its cultural roots. 
+                From appetizers to desserts, Ei's selections offer something for every palate and occasion.</p>
+
+            <p>Justin - Index & Navigation: Justin is the mastermind behind our website's index and navigation, 
+                making sure you can easily find recipes by country and cuisine. With a user-friendly approach, 
+                Justin's work ensures that exploring our site is a seamless experience. Whether you're craving Italian, 
+                Thai, or Moroccan, Justin's thoughtful organization helps you quickly find the perfect recipe.</p>
+        </fieldset>
+
+      </div>
+
+      <div class="FormSection">
+        <fieldset>
+            <legend>Contact US</legend>
+
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <label for="Name">First Name</label>
+                <input id="Name" type="text" name="first_name" placeholder="Enter your first name" required>
+                <br>
+                <label for="Surname">Second Name</label>
+                <input id="Surname" type="text" name="Surname" placeholder="Enter your second name" required>
+                <br>
+                <label for="Email">Email</label>
+                <input id="email" type="email" name="user_email" placeholder="Enter your email address" required>
+                <br>
+                <label for="Age">Age</label>
+                <input id="Age" type="number" name="user_age" placeholder="Age" min="18" max="60">
+                <br>
+                <label for="Date">Date</label>
+                <input id="Date" type="date" name="date_selection">
+                <br>
+                <label for="Suggestion">Recipe Suggestion</label>
+                <textarea id="Suggestion" name="user_suggestion" placeholder="Suggest your recipe here" rows="20" cols="60"></textarea>
+                <br>
+                <input type="submit">
+                <br>
+                <input type="reset" value="Reset">
+                
+                
+                
+            </form>
+
+            
+        </fieldset>
+      </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+    <ul id="social-networks">
+        <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)">
+                <i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)">
+                <i class="fa-brands fa-twitter-square"></i></a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)">
+                <i class="fa-brands fa-youtube-square"></i></a>
+        </li>
+    </ul>
+</div>
+</footer>
+
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
