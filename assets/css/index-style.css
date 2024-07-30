@@ -1,0 +1,60 @@
+
+/* Main */
+
+body {
+    background-color: black;
+}
+
+h1,
+h2, 
+h5 {
+    color: #FFF
+}
+
+p {
+    color: #FFF
+}
+
+/* Images */ 
+
+.location1img {
+    height: 100vh;
+    background-image: url('../images/newyork.jpg');
+    background-size: cover;
+    }
+
+.location2img {
+    height: 100vh;
+    background-image: url('../images/bigben.jpg');
+    background-size: cover;
+    }
+  
+
+.location3img {
+    height: 100vh;
+    background-image: url('../images/tajmahal.jpg');
+    background-size: cover;
+    }
+
+.location4img {
+    height: 100vh;
+    background-image: url('../images/theatreitaly.jpg');
+    background-size: cover;
+    }
+
+/* Jumbotron */
+
+.jumbotron-image {
+    background-image: url('../images/flagscombinednew.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.mainheader {
+    color:grey;
+}
+
+.mainp {
+    color: grey;
+}
+
