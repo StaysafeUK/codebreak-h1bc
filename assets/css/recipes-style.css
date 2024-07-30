@@ -1,10 +1,68 @@
 /* Color */
 
+/* --------------------container-fluid */
+.container-fluid {
+    width: 100%; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*  Images in Recipe page */
 .recipe-image{
+    margin: 30px auto;
     width: 500px;
     height: 400px;
     background-size: cover;
+    position:relative;
+    display:flex;
+
 }
 
+<<<<<<< HEAD
+/*  Recipe Text  */
+.recipe-text{
+    font-size: small;
+    color:#000000;
+    margin: 30px auto;
+}
+
+.card-header i{
+    padding: 10px;
+    background-color: #d4d8e2;
+    border-radius: .5rem;
+}
+#recipe-header i:hover{
+    background-color: #e25d2d;    
+}
+
+#ingredients-header i:hover{
+    background-color: #e25d2d;
+}
+/*  Screen Size 578px and below Mobile Devices  */
+@media (min-width: 576px) {
+    .col-sm-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }   
+}
+/*  Screen Size 768px and below Tablet Devices  */
+@media (min-width: 768px) {
+    /* Recipe Image */
+    .recipe-image{
+    width: 400px;
+    height: 450px;
+    background-size: cover;
+    margin: 30 25 auto;
+    }
+
+    /* Body Text */
+    .body-text{
+        margin: 20 25;
+        padding : 20 20 auto;
+    }
+}
+=======
 
 
+>>>>>>> main
