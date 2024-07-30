@@ -63,12 +63,24 @@ html<!DOCTYPE html>
             <legend>Contact US</legend>
 
             <form action="https://formdump.codeinstitute.net/" method="POST">
-                <label for="Name"></label>
-                <input id="Name" type="text" name="first_name" placeholder="Enter your first name">
+                <label for="Name">First Name</label>
+                <input id="Name" type="text" name="first_name" placeholder="Enter your first name" required>
                 <br>
-                <label for="Surname"></label>
-                <input id="Surname" type="text" name="Surname" placeholder="Enter your second name">
+                <label for="Surname">Second Name</label>
+                <input id="Surname" type="text" name="Surname" placeholder="Enter your second name" required>
                 <br>
+                <label for="Email">Email</label>
+                <input id="email" type="email" name="user_email" placeholder="Enter your email address" required>
+                <br>
+                <label for="Age">Age</label>
+                <input id="Age" type="number" name="user_age" placeholder="Age" min="18" max="60">
+                <br>
+                <label for="Date">Date</label>
+                <input id="Date" type="date" name="date_selection">
+                <br>
+                <label for="Suggestion">Recipe Suggestion</label>
+                <textarea id="Suggestion" name="user_suggestion" placeholder="Suggest your recipe here" rows="20" cols="60"></textarea>
+                
                 
                 
             </form>
