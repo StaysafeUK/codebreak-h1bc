@@ -1,4 +1,13 @@
 
+/* Font family Roboto */
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
 /* Main */
 
 body {
@@ -8,11 +17,11 @@ body {
 h1,
 h2, 
 h5 {
-    color: #FFF
+    color: #FFF;
 }
 
 p {
-    color: #FFF
+    color: #FFF;
 }
 
 /* Images */ 
@@ -45,16 +54,33 @@ p {
 /* Jumbotron */
 
 .jumbotron-image {
+    height: 50vh;
     background-image: url('../images/flagscombinednew.jpg');
     background-size: cover;
-    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Overlay with 50% opacity black */
 }
+    
 
 .mainheader {
-    color:grey;
+    color: #F0EBD2;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .mainp {
-    color: grey;
+    color: #F0EBD2;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);   
+}
+
+.maingo {
+    color: #06cc3a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;    
 }
 
