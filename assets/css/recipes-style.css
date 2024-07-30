@@ -25,10 +25,17 @@
     margin: 30px auto;
 }
 
+.card-header i{
+    padding: 10px;
+    background-color: #83d9e2;
+    border-radius: .5rem;
+}
+#recipe-header i:hover{
+    background-color: #e25d2d;    
+}
 
-#recipe i:hover{
+#ingredients-header i:hover{
     background-color: #e25d2d;
-    
 }
 /*  Screen Size 578px and below Mobile Devices  */
 @media (min-width: 576px) {
