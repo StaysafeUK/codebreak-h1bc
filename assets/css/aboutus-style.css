@@ -1,1 +1,23 @@
-/* Color */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: blue !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
