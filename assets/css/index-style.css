@@ -30,7 +30,7 @@
 
 /* Jumbotron */
 
-.jumbotron {
+.jumbotron-image {
     background-image: url('../images/flagscombinednew.jpg');
     background-size: cover;
     height: 100vh;
