@@ -96,6 +96,7 @@ footer {
     padding: 10px 0;
     text-align: center;
     color:red;
+    
 }
 
 #social-networks {
@@ -113,8 +114,19 @@ footer {
 }
 
 #social-networks a {
-    color: white;
+    color: rgb(38, 12, 185);
     font-size: 24px;
 }
 
+
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px
+}
 
