@@ -21,3 +21,34 @@ body {
     background-color: white;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.AboutSection, .FormSection {
+    flex: 1;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: 20px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+
+
