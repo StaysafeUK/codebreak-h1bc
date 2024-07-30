@@ -24,6 +24,12 @@ p {
     color: #FFF;
 }
 
+.pquote {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
 /* Images */ 
 
 .location1img {
@@ -57,7 +63,7 @@ p {
     height: 50vh;
     background-image: url('../images/flagscombinednew.jpg');
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.8); /* Overlay with 50% opacity black */
+    background-color: rgba(0, 0, 0, 1.0); /* Overlay with 50% opacity black */
 }
     
 
@@ -70,16 +76,17 @@ p {
 }
 
 .mainp {
-    color: #F0EBD2;
+    color: #F4A460;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);   
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);   
 }
 
 .maingo {
     color: #06cc3a;
     font-family: "Roboto", sans-serif;
+    font-size: 23px;
     font-weight: 600;
     font-style: normal;    
 }
