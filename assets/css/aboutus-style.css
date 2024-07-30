@@ -73,5 +73,28 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     background-color: gray;
 }
 
+footer {
+    background-color: red;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#social-networks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#social-networks li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#social-networks a {
+    color: white;
+    font-size: 24px;
+}
 
 
