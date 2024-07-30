@@ -49,8 +49,8 @@
 @media (min-width: 768px) {
     /* Recipe Image */
     .recipe-image{
-    width: 300px;
-    height: 250px;
+    width: 400px;
+    height: 450px;
     background-size: cover;
     margin: 30 25 auto;
     }
