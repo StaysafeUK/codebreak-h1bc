@@ -1,5 +1,11 @@
 /* Color */
 
+.col-12 {
+    padding-left: 15px;
+    padding-right:30px;
+    position:relative;
+}
+
 /* --------------------container-fluid */
 .container-fluid {
     width: 100%; 
@@ -9,21 +15,21 @@
 
 /*  Images in Recipe page */
 .recipe-image{
-    margin: 30px auto;
-    width: 500px;
+    margin: 30px 30px;
+    width: 300px;
     height: 400px;
     background-size: cover;
     position:relative;
-    display:flex;
-
+    display: flex;
 }
 
 
 /*  Recipe Text  */
 .recipe-text{
-    font-size: small;
+    font-size: 14px;
     color:#000000;
-    margin: 30px auto;
+    margin: auto;
+    display: flex;
 }
 
 .card-header i{
@@ -31,34 +37,61 @@
     background-color: #d4d8e2;
     border-radius: .5rem;
 }
+
+/*  Body Text  */
+.body-text{
+    margin: auto;
+    display: inline-block;
+}
+
+/* Receipe Header Hover  */
 #recipe-header i:hover{
     background-color: #e25d2d;    
 }
 
+
+/* Ingredients Header Hover  */
 #ingredients-header i:hover{
     background-color: #e25d2d;
 }
+
+
 /*  Screen Size 578px and below Mobile Devices  */
-@media (min-width: 576px) {
+@media (min-width: 576px) { 
     .col-sm-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width: 50%;
-    }   
-}
+        max-width: 100%;
+        }   
+
+     /* Recipe Image */
+     .recipe-image{
+        margin: 30px 30px;
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        }
+    }
+        
 /*  Screen Size 768px and below Tablet Devices  */
 @media (min-width: 768px) {
+
     /* Recipe Image */
     .recipe-image{
-    width: 400px;
-    height: 450px;
+    width: 300px;
+    height: 350px;
     background-size: cover;
-    margin: 30 25 auto;
+    margin: 30px 30px auto;
+    
     }
 
     /* Body Text */
     .body-text{
-        margin: 20 25;
-        padding : 20 20 auto;
+        margin: auto;
+        padding : 20px 30px auto;
+        
     }
 }
