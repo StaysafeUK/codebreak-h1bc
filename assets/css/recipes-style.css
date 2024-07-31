@@ -1,10 +1,12 @@
 /* Color */
 
-.col-12 {
-    padding-left: 15px;
-    padding-right:30px;
+/* .col-12 {
+    padding-left: 0;
+    padding-right:0;
     position:relative;
-}
+    margin-left: 20px;
+    margin-right: 20px;
+} */
 
 /* --------------------container-fluid */
 .container-fluid {
@@ -78,14 +80,17 @@
         /* Body Text */
      .body-text{
         margin: 20px 25px auto;
-        padding : 20px 30px auto;
+        margin-left: 1.2rem;
+        padding : 30px auto;
         width: 80%;
+        padding-right : 2rem;
         }
     }
         
 /*  Screen Size 768px Tablet Devices  */
 @media (min-width: 768px) {
     /* Recipe Image */
+
     .recipe-image{
     width: 300px;
     height: 350px;
