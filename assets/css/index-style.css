@@ -64,7 +64,7 @@ p {
 /* Jumbotron */
 
 .jumbotron-image {
-    height: 30vh;
+    height: 25vh;
     background-image: url('../images/flagscombinednew.jpg');
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.9); /* Overlay with 50% opacity black */
@@ -85,7 +85,9 @@ p {
     font-size: 20px;
     font-weight: 600;
     font-style: normal; 
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);   
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+    margin: unset;
+    display: unset;  
 }
 
 .maingo {
@@ -93,7 +95,9 @@ p {
     font-family: "Roboto", sans-serif;
     font-size: 23px;
     font-weight: 600;
-    font-style: normal;    
+    font-style: normal; 
+    margin: unset;
+    display: unset;     
 }
 
 .col-sm-12.bg-danger {
@@ -103,4 +107,12 @@ p {
   .footermain {
     display: flex; /* Make the div a flex container */
     justify-content: center; /* Center the content horizontally */
+  }
+
+  p {
+    margin: auto;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
