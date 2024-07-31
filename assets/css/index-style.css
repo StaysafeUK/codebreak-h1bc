@@ -102,12 +102,14 @@ p {
 
 .col-sm-12.bg-danger {
     height: 50px; /* Change 100px to your desired height */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Align content vertically */
   }
 
   .footermain {
     display: flex; /* Make the div a flex container */
     justify-content: center; /* Center the content horizontally */
-    align-items: center;
+    align-items: center; /* Align content vertically */
   }
 
   p {
