@@ -15,8 +15,8 @@
 
 /*  Images in Recipe page */
 .recipe-image{
-    margin: 30px 30px;
-    width: 500px;
+    margin: 30px 30px auto;
+    width: 300px;
     height: 400px;
     background-size: cover;
     position:relative;
@@ -30,6 +30,7 @@
     color:#000000;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-header i{
@@ -54,15 +55,28 @@
 #ingredients-header i:hover{
     background-color: #e25d2d;
 }
+
+
 /*  Screen Size 578px and below Mobile Devices  */
-@media (min-width: 576px) {
-    
+@media (min-width: 576px) { 
     .col-sm-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width: 50%;
-    }   
-}
+        max-width: 100%;
+        }   
+
+     /* Recipe Image */
+     .recipe-image{
+        margin: 30px 30px;
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        }
+    }
+        
 /*  Screen Size 768px and below Tablet Devices  */
 @media (min-width: 768px) {
 
@@ -72,12 +86,13 @@
     height: 350px;
     background-size: cover;
     margin: 30px 30px auto;
+    
     }
 
     /* Body Text */
     .body-text{
         margin: auto;
         padding : 20px 30px auto;
-        display: inline-block;
+        
     }
 }
