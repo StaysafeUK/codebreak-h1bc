@@ -65,7 +65,7 @@ p {
 
 .jumbotron-image {
     height: 25vh;
-    background-image: url('../images/flagscombinednew.jpg');
+    background-image: url('../images/flagscombined.jpg');
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.9); /* Overlay with 50% opacity black */
 }
