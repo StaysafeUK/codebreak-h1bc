@@ -22,3 +22,23 @@
   <img src="assets/wireframe/ContactUsMobile.png" alt="ContactUs page wireframe Mobile">
   </div>
   
+
+  ## Am I Responsive
+    
+  - Landing Page Responsive Testing
+  <div align="center">
+  <img src="assets/ResponsiveImg/LandingPageResponsive.png" alt="Main page">
+</div>
+
+  - Recipes Page Responsive Testing
+
+  <div align="center">
+  <img src="assets/ResponsiveImg/RecipePageResponsive.png" alt="Recipes page">
+  </div>
+  
+   - ContactUs Responsive Testing
+
+  <div align="center">
+  <img src="assets/ResponsiveImg/ContactUsResponsive.png" alt="Contact Us">
+  </div>
+  
