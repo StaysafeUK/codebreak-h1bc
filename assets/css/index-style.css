@@ -33,26 +33,27 @@ p {
 /* Images */ 
 
 .location1img {
-    height: 100vh;
+    height: 60vh;
     background-image: url('../images/newyork.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     }
 
 .location2img {
-    height: 100vh;
+    height: 60vh;
     background-image: url('../images/bigben.jpg');
     background-size: cover;
     }
   
 
 .location3img {
-    height: 100vh;
+    height: 60vh;
     background-image: url('../images/tajmahal.jpg');
     background-size: cover;
     }
 
 .location4img {
-    height: 100vh;
+    height: 60vh;
     background-image: url('../images/theatreitaly.jpg');
     background-size: cover;
     }
@@ -60,10 +61,10 @@ p {
 /* Jumbotron */
 
 .jumbotron-image {
-    height: 50vh;
+    height: 30vh;
     background-image: url('../images/flagscombinednew.jpg');
     background-size: cover;
-    background-color: rgba(0, 0, 0, 1.0); /* Overlay with 50% opacity black */
+    background-color: rgba(0, 0, 0, 0.9); /* Overlay with 50% opacity black */
 }
     
 
@@ -92,3 +93,11 @@ p {
     font-style: normal;    
 }
 
+.col-sm-12.bg-danger {
+    height: 50px; /* Change 100px to your desired height */
+  }
+
+  .footermain {
+    display: flex; /* Make the div a flex container */
+    justify-content: center; /* Center the content horizontally */
+  }
