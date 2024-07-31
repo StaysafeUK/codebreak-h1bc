@@ -107,6 +107,7 @@ p {
   .footermain {
     display: flex; /* Make the div a flex container */
     justify-content: center; /* Center the content horizontally */
+    align-items: center;
   }
 
   p {
