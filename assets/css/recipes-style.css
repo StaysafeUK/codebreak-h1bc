@@ -66,10 +66,16 @@
 @media (min-width: 576px) { 
     .col-sm-6 {
         -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
+        flex: 0 0 80%;
         max-width: 100%;
         }   
 
+        .col-sm-4 {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+            } 
+        
      /* Recipe Image */
      .recipe-image{
         margin: 30px 30px;
@@ -93,6 +99,12 @@
 /*  Screen Size 768px Tablet Devices  */
 @media (min-width: 768px) {
     /* Recipe Image */
+
+    .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width:40%;
+    }
 
     .recipe-image{
     width: 300px;
