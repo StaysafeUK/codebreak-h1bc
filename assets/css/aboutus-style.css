@@ -1,1 +1,132 @@
-/* Color */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: blue !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.AboutSection, .FormSection {
+    flex: 1;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 20px;
+    max-width: 48%;
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="date"], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group div {
+    width: 48%;
+}
+
+input[type="submit"], input[type="reset"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 48%;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: gray;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: red;
+    padding: 10px 0;
+    text-align: center;
+    color:red;
+    
+}
+
+#social-networks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#social-networks li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#social-networks a {
+    color: rgb(38, 12, 185);
+    font-size: 24px;
+}
+
+
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px
+}
+
