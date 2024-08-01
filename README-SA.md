@@ -65,7 +65,7 @@ The CSS code for the "recipe" page has been validated and deemed fully compliant
 ![Recipes Page test(CSS validater)](assets/images/codetestCSS2.jpg)
 
 
-## About Us Page
+### About Us Page
 
 The "About Us" page has undergone validation using the W3C Nu HTML Checker, and the results demonstrate a commendable level of adherence to HTML standards. The checker flagged only minor informational messages, specifically regarding the use of trailing slashes on void elements, such as <meta> and <link>. These notes are not errors but rather advisories that trailing slashes on void elements do not have an effect and can cause issues when combined with unquoted attribute values. However, in this context, they do not impair functionality or compliance with standards.
 
@@ -80,14 +80,27 @@ The CSS code for the "About Us" page has been thoroughly tested and has successf
 ![About Us page test(HTML Validater)](assets/images/codetest3.jpg)
 ![About US page test(CSS Validater)](assets/images/codetestCSS3.jpg)
 
+## Mobile device test
 
 
+After testing our website on a mobile device, I'm pleased to report that it exhibits a high degree of responsiveness and user-friendliness. The content adjusts smoothly to the smaller screen, maintaining readability and functionality. The layout remains intact, with images and text scaling appropriately without any loss of quality or structure. Navigation is straightforward, with all links and buttons easily accessible, ensuring a seamless user experience.
 
+The images, such as the prominent Big Ben photo for the UK section and the enticing hamburger image for the USA section, retain their clarity and impact, effectively engaging the viewer. The text wraps nicely, with no awkward breaks, maintaining a clean and professional look.
 
+The contact form is particularly well-designed for mobile use, with input fields that are easy to tap and fill out. The form fields are properly spaced, preventing accidental selections and ensuring a smooth user interaction. Additionally, the inclusion of a drop-down menu for the date selection enhances usability, making it convenient for users to input their information accurately.
 
+Moreover, the website's performance remains quick and responsive, with pages loading promptly, ensuring that users do not experience delays or frustration. The overall aesthetic and functionality on mobile devices mirror that of the desktop version, providing a consistent and engaging experience for users on the go.
 
+Overall, the website performs excellently on mobile devices, providing a consistent and engaging experience for users on the go. This ensures that whether visitors access the site from their desktop or mobile device, they receive the same high-quality interaction, reflecting well on the site's design and technical execution.
 
+The follwing screenshots have been taken on a mobile test:
 
+![Mobile test](assets/images/Mobiletest1.jpg)
 
+![Mobile test](assets/images/Mobiletest2.jpg)
 
+![Mobile test](assets/images/aboutus3.jpg)
 
+![Mobile test](assets/images/aboutus4.jpg)
+
+![Mobile test](assets/images/mobiletest5.jpg)
