@@ -64,4 +64,16 @@ most screen sizes.
 - Header and footer
 
 ## 3. Design choice
- 
+
+## Colour Scheme
+- Initially we went with a green and blue colour scheme, however we had a change in the design process and went for a dark
+theme using colours from the default Bootstrap information, warning etc.
+
+## Fonts
+- We decided to use Google Fonts Roboto for the default text accross our site Roboto Sans-serif font weight 600 as we wanted clear 
+and easy to read font.
+## Banner
+- *Home Title* Roboto Sans-Serif 700 Bold was used with shadowing so it could be displayed against our AI build image.  
+
+
+
