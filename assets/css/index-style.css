@@ -64,7 +64,7 @@ p {
 /* Jumbotron */
 
 .jumbotron-image {
-    height: 25vh;
+    height: 29vh;
     background-image: url('../images/flagscombinednew.jpg');
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.9); /* Overlay with 50% opacity black */
@@ -82,7 +82,7 @@ p {
 .mainp {
     color: #F4A460;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     font-style: normal; 
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
@@ -93,7 +93,7 @@ p {
 .maingo {
     color: #06cc3a;
     font-family: "Roboto", sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 600;
     font-style: normal; 
     margin: unset;
