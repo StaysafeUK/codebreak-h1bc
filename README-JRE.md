@@ -20,8 +20,8 @@ The index page features clickable images, and links that divert directly to the 
 the USA image or link, the page will goto USA on recipes page, this works across all locations. 
 
 ## Responsive design
-Our index page was designed on mobile first p[rinciples, and is fully responsive on all devices,  this gives us the 
-ability to increase our market share as the majority of internet users are mobile first, tablets and desktops second. ]
+Our index page was designed on mobile first principles, and is fully responsive on all devices,  this gives us the 
+ability to increase our market share as the majority of internet users are mobile first, tablets and desktops second. 
 
 ## RECIPES PAGE
 ## Drop down menus for ingredients and method
