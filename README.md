@@ -204,7 +204,7 @@ The About Us Page provides insights into our team and mission, and includes a us
 
 ![Missing Field](assets/images/aboutus3.jpg)
 
-![Upon successfull submission](assets/images/aboutus4)
+![Upon successfull submission](assets/images/successfulSubmission.jpg)
 
 
 ## Code
