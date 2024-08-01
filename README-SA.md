@@ -47,9 +47,44 @@ The About Us Page provides insights into our team and mission, and includes a us
 
 ### Landing Page
 
-The HTML validation for the Landing Page was conducted using the W3C Markup Validation Service to ensure compliance with web standards. The validation results indicate that the HTML code passed all checks without any errors or warnings. The primary issues identified were informational, noting that trailing slashes on void elements (such as meta tags and link tags) have no effect and may interact badly with unquoted attribute values. These messages are purely informational and do not affect the functionality or compliance of the HTML code. Successfully passing the validation confirms that the Landing Page adheres to best practices and standards, ensuring it is well-structured, accessible, and compatible across different browsers and devices. This compliance contributes to the overall reliability and quality of the website.
+The HTML validation for the Landing Page was conducted using the W3C Markup Validation Service to ensure compliance with web standards. The validation results indicate that the HTML code passed all checks without any errors or warnings. The primary issues identified were informational, noting that trailing slashes on void elements (such as meta tags and link tags) have no effect and may interact badly with unquoted attribute values. These messages are purely informational and do not affect the functionality or compliance of the HTML code. Successfully passing the validation confirms that the Landing Page adheres to best practices and standards, ensuring it is well-structured, accessible, and compatible across different browsers and devices. This compliance contributes to the overall reliability and quality of the website. 
 
-![Landing page code test](assets/images/codetest1)
+In addition to HTML validation, the CSS code for the Landing Page was also rigorously tested using the W3C CSS Validation Service. The validation process ensures that the CSS adheres to the standards set by the W3C, promoting best practices in styling and layout. The results of the CSS validation indicated that there were no errors or warnings, confirming that the stylesheets are syntactically correct and compatible across different browsers. This successful validation ensures that the visual presentation of the website is consistent and reliable, providing users with a seamless and aesthetically pleasing experience. By adhering to W3C standards, we ensure that our website is robust, maintainable, and accessible, enhancing the overall quality and performance of the site.
+
+![Landing page code test(HTMl Validater)](assets/images/codetest1.jpg)
+
+![Landing page code test(CSS validater)](assets/images/codetestCSS1.jpg)
+
+### Recipes Page
+
+The HTML code for the "recipes" page has been successfully tested using the W3C Nu HTML Checker. The validation results indicate that the code passed all major checks, with only minor informational and warning messages. Specifically, there was an informational note about the trailing slash on a meta tag, which is harmless and does not affect the document's validity. Additionally, a warning was flagged regarding the first occurrence of an ID, "ingredients-header," indicating proper attention to unique ID usage. Overall, these minor notes do not detract from the fact that the HTML code conforms to current web standards, ensuring a well-structured and valid document.
+
+The CSS code for the "recipe" page has been validated and deemed fully compliant with current web standards. The validation process confirmed that the stylesheet contains valid syntax, with no significant errors or warnings impacting its performance. This indicates that the CSS rules are well-structured and correctly applied, ensuring a consistent and visually appealing layout across different browsers and devices. The validation results highlight the developer's adherence to best practices in CSS development, providing a solid foundation for styling the page effectively. Overall, the CSS code's validity guarantees that the styling is both functional and reliable, contributing to a seamless user experience on the "recipe" page.
+
+![Recipes Page test(HTML validater)](assets/images/codetest2.jpg)
+![Recipes Page test(CSS validater)](assets/images/codetestCSS2.jpg)
+
+
+## About Us Page
+
+The "About Us" page has undergone validation using the W3C Nu HTML Checker, and the results demonstrate a commendable level of adherence to HTML standards. The checker flagged only minor informational messages, specifically regarding the use of trailing slashes on void elements, such as <meta> and <link>. These notes are not errors but rather advisories that trailing slashes on void elements do not have an effect and can cause issues when combined with unquoted attribute values. However, in this context, they do not impair functionality or compliance with standards.
+
+The presence of a meta tag for the page description and a link to external stylesheets, including Google Fonts and Font Awesome, showcases the developer's commitment to ensuring a rich and visually appealing user experience. The inclusion of multiple font families from Google Fonts, combined with the use of Bootstrap for responsive navigation, indicates a focus on accessibility and design consistency across different devices and screen sizes.
+
+Moreover, the document structure adheres to modern HTML5 practices, ensuring that the content is both semantic and accessible. The use of appropriate classes, such as navbar, navbar-expand-sm, and bg-primary, aligns with Bootstrap's framework, facilitating easy styling and modification. The implementation of a collapsible navigation bar is another example of thoughtful design, enhancing the user's ability to navigate the site efficiently.
+
+Overall, the validation results reflect a robust and well-constructed HTML document, with minor suggestions that do not detract from the overall quality or usability of the page. The attention to detail in adhering to best practices while incorporating modern web technologies exemplifies a high standard of web development.
+
+The CSS code for the "About Us" page has been thoroughly tested and has successfully passed the validation process, with the results indicating no errors or issues. The validator's congratulatory message confirms that the stylesheet adheres perfectly to all current standards, reflecting a meticulous attention to detail in the coding process. This error-free status underscores the developer's expertise in writing clean, efficient CSS, ensuring that the page's layout and styles render flawlessly across all modern browsers and devices. The absence of errors also means that the CSS rules are well-organized and compatible with best practices, facilitating a smooth and consistent user experience. Overall, the perfect validation outcome is a testament to the high quality and reliability of the "About Us" page's styling.
+
+![About Us page test(HTML Validater)](assets/images/codetest3.jpg)
+![About US page test(CSS Validater)](assets/images/codetestCSS3.jpg)
+
+
+
+
+
+
 
 
 
