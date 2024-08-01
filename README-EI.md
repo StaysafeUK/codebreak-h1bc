@@ -42,3 +42,18 @@
   <img src="assets/documentation/ResponsiveImg/ContactUsResponsive.png" alt="Contact Us">
   </div>
   
+
+
+
+  ## During development and testing, we found these bugs and fixed:
+
+### Overlapping Text over image
+
+- When the browser resize and make smaller the right hand side coloumn takes over and overlapped .
+This is not a good user experience & we managed to fix. 
+
+  <div align="center">
+  <img src="assets/documentation/ResponsiveImg/Knownbug-recipe.jpg" alt="Know Bug Recipe site">
+  </div>
+  
+
