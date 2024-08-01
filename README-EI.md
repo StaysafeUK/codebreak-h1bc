@@ -87,5 +87,5 @@ https://pikwizard.com/s/photo/chicken+korma/
 
 - Our team would like to add a toggle dropdown effect on Recipe on navigation bar that allows the user to be able to explore more without having to go down the page and search .It will also encourage user to suggest more of their choice if they couldn't find what they want.
 
-
+- In Order to give user a pleasant experiece of their visit to the page development team would like to make imporovement on our button style to be more visually appealing.
 
